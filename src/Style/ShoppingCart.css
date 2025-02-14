@@ -1,0 +1,149 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navbar styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #330aec;
+  color: white;
+  padding: 10px 20px;
+}
+
+.Nav-title p {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.Nav-Logout {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Nav-Logout p {
+  margin: 0;
+  cursor: pointer;
+}
+
+.Nav-Logout div {
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.Icon {
+  width: 20px;
+  height: 20px;
+}
+
+.Items-added {
+  background-color: rgb(255, 22, 224);
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 10px;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+/* Content container */
+.Content {
+  display: flex;
+}
+
+aside {
+  width: 300px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+aside li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+aside label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+aside input[type="checkbox"] {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: 20px;
+  accent-color: rgb(255, 22, 224);
+}
+
+/* Main content styles */
+.main {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Product-Card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.Product-Card img {
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.Product-Card button {
+  background-color: #7a7c7b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.Product-Card button:hover {
+  background-color: #292929;
+}
+
+.Add-Cart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f8f8f8;
+  padding: 8px 12px;
+  margin-left: 30px;
+}
+
+.Add-Cart button {
+  width: 70px;
+  height: 30px;
+}
+
+.Quentity {
+  margin-top: 25px;
+}

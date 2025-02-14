@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  "Poppins", serif;
+}
+
+  /* Navbar styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #330aec;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .Nav-title p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .Nav-Logout {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .Nav-Logout p {
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .Nav-Logout div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+
+/* General styles */
+.CheckOut {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Button styles */
+  .CheckOut button {
+    background-color: #dbdbdb;
+    color: rgb(19, 17, 17);
+    font-weight: bolder;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .CheckOut button:hover {
+    background-color: #646864;
+  }
+  
+  /* Cart header styles */
+  .Cart-Header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .Cart-Header p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  .Cart-Header button {
+     margin-left: 580px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 30px;
+    text-align: left;
+    border-bottom: 2px solid #1a1818;
+  }
+  
+  th {
+    background-color: #f8f8f8;
+  }
+  
+   /* Product image and name styles */
+   td img {
+    width: 1200px;  /* Increased size */
+    height: 1200px; /* Increased size */
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  
+  td p {
+    display: inline-block;
+    margin: 0;
+    font-weight: bolder;
+  }
+  
+  /* Quantity controls styles */
+  .Quantity-Controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .Quantity-Controls button {
+    padding: 5px 10px;
+    height: 40px;
+    width:50px;
+  }
+  
+  .Quantity-Controls button:hover {
+    background-color: #69707e;
+  }
+  
+
+  .CheckOut table img {
+    width: 120px; /* Adjust as needed */
+    height: auto;
+  }
+
+  .Check-Out button{
+    background-color: #6044dd;
+  }
+
+  .Check-Out button:hover{
+    background-color:#7f0aece5 ;
+  }
